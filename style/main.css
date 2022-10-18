@@ -1,0 +1,33 @@
+/*Inixio configuração do body e importação da fonte.*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+/*Fim configuração do body e importação da fonte.*/
+
+/**/
+header{
+    background: linear-gradient(90deg, rgba(241,176,76,1) 0%, rgba(238,107,110,1) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+/**/
